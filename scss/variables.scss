@@ -1,0 +1,43 @@
+// @import '~@rrc-materials/theme';
+
+// 配色来自于 @see http://uiguide.shanyishanmei.com/
+// 字体
+$font-family-base: PingFangSC-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+// 背景颜色
+$bg-color: #f8f8f8;
+// 主题色
+$primary: #fd521d !default;
+
+$primary-light: #fb9919 !default;
+// 辅助色
+$danger: #fb9919 !default;
+// 默认的资源存放路径
+$icon-img-url: '../assets/img';
+// border color
+$border-color: #d8d8d8 !default;
+// font color
+$font-color: #505050 !default;
+// 淡的color e2e2e2
+$light-border-color: #e2e2e2 !default;
+
+$cate-font-color: #b79310;
+
+//  进度条背景颜色
+$nprogress: $primary;
+
+// Mobile Global footer
+// ----------------------------------
+$footer-height: 52px;
+
+// Global Card
+// ----------------------------------
+$card-header-height: 34px;
+$card-header-color: $font-color;
+$card-radius: 0;
+$card-footer-height: 50px;
+
+// PC Global
+// ----------------------------------
+// header 高度
+$header-height: 64px !default;
+$side-bar-width: 200px !default;

@@ -1,0 +1,7 @@
+export { isBoolean } from './src/is/is.boolean'
+export { isFunction } from './src/is/is.function'
+export { isLength } from './src/is/is.length'
+export { isObject } from './src/is/is.object'
+export { isObjectLike } from './src/is/is.object.like'
+export { isNumber } from './src/is/is.number'
+export { isUndefined } from './src/is/is.undefined'
