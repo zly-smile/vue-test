@@ -1,5 +1,5 @@
-// import {isObjectLike} from './is.object.like'
-// import baseGetTag from '@rrc/utils/lib/base.get.tag'
+import {isObjectLike} from './is.object.like'
+import baseGetTag from '../../lib/base.get.tag'
 
 /**
  * Checks if `value` is classified as a `Number` primitive or object.
@@ -26,7 +26,7 @@
  * isNumber('3')
  * // => false
  */
-// export function isNumber (value) {
-//   return typeof value === 'number' ||
-//   // (isObjectLike(value) && baseGetTag(value) === '[object Number]')
-// }
+export function isNumber(value) {
+  return typeof value === 'number' ||
+  (isObjectLike(value) && baseGetTag(value) === '[object Number]')
+}

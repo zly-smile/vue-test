@@ -1,4 +1,4 @@
-// import baseGetTag from '@rrc/utils/lib/base.get.tag'
+import baseGetTag from '../../lib/base.get.tag'
 import { isObject } from './is.object'
 
 /**
@@ -22,8 +22,7 @@ export function isFunction (value) {
   }
   // The use of `Object#toString` avoids issues with the `typeof` operator
   // in Safari 9 which returns 'object' for typed arrays and other constructors.
-  // const tag = baseGetTag(value)
-
-  // return tag === '[object Function]' || tag === '[object AsyncFunction]' ||
-  //   tag === '[object GeneratorFunction]' || tag === '[object Proxy]'
+  const tag = baseGetTag(value)
+  return tag === '[object Function]' || tag === '[object AsyncFunction]' ||
+    tag === '[object GeneratorFunction]' || tag === '[object Proxy]'
 }

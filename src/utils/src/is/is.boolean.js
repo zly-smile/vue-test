@@ -1,5 +1,5 @@
-// import baseGetTag from '@rrc/utils/lib/base.get.tag'
-// import { isObjectLike } from './is.object.like'
+import baseGetTag from '../../lib/base.get.tag'
+import { isObjectLike } from './is.object.like'
 
 /**
  * Checks if `value` is classified as a boolean primitive or object.
@@ -17,7 +17,6 @@
  * // => false
  */
 export function isBoolean (value) {
-  console.log(value)
-  // return value === true || value === false ||
-  // (isObjectLike(value) && baseGetTag(value) === '[object Boolean]')
+  return value === true || value === false ||
+  (isObjectLike(value) && baseGetTag(value) === '[object Boolean]')
 }
