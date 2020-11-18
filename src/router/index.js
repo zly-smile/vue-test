@@ -8,6 +8,7 @@ import ChartRouter from '@/views/chart'
 import FlexRouter from '@/views/flex'
 import VueDemoRouter from '@/views/vue.demo'
 import LazyloadRouter from '@/views/lazyload'
+import HomeRouter from '@/views/home'
 
 Vue.use(Router)
 
@@ -31,6 +32,7 @@ ChartRouter(rootRouter.children)
 FlexRouter(rootRouter.children)
 VueDemoRouter(rootRouter.children)
 LazyloadRouter(rootRouter.children)
+HomeRouter(rootRouter.children)
 
 let authRouter = new AuthRouter()
 

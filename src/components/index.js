@@ -4,13 +4,15 @@ import List from './list'
 import Card from './card'
 import BaiduMap from './baidu.map'
 import Lazyload from './lazyload'
+import Table from './table'
 
 const components = [
   Item,
   List,
   Card,
   BaiduMap,
-  Lazyload
+  Lazyload,
+  Table
 ]
 
 const ua = navigator.userAgent

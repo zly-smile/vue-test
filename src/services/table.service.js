@@ -1,4 +1,4 @@
-// import {get} from '@/bases/http.base'
+import { get } from '@/bases/http.base'
 import axios from 'axios'
 /**
  *
@@ -13,4 +13,14 @@ import axios from 'axios'
  */
 export function getList (params) {
   return axios.get('/mock/table/list', {params})
+}
+
+/**
+ *
+ * 获取号池列表
+ * @export
+ * @returns Promise
+ */
+export function getPoolList (params = {}) {
+  return get('com/table/list', params)
 }

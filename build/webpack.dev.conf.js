@@ -47,7 +47,8 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     proxy: {
     '/mock': {
       target: 'https://easy-mock.com/mock/5bf3c083bc9cc748adb57936',
-      changeOrigin: true
+      changeOrigin: true,
+      secure: false
     }
   }
   },

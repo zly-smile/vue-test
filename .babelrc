@@ -10,6 +10,7 @@
   ],
   "plugins": [
     "transform-runtime",
+    "transform-vue-jsx",
     ["component", [
       {
        "libraryName": "element-ui",

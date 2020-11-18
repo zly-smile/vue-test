@@ -15,7 +15,6 @@ let ARR_LOADING = []
 let IS_LOADING = false
 let LOADING_INSTANCE = null
 service.interceptors.request.use(config => {
-  console.log(config, 12345)
   let reg = /ticket=(.+?\.shanyishanmei\.com)/
   let result = window.location.href.match(reg)
   if (result !== null) {
