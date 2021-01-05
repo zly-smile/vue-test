@@ -13,7 +13,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-plugin-component": "^1.1.1",
     "d3": "^5.7.0",
     "ejs": "^2.6.1",
